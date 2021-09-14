@@ -1,0 +1,640 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Create menu */
+
+.menu {
+    background-color: white;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;     
+    justify-content: left;
+    position: fixed;
+    z-index: 10;
+    border: 0.1% #888 solid;
+    border-top: 0;    
+    border-left: 0;
+    border-right: 0;
+    box-sizing: border-box;
+    box-shadow: 0.5px 0.5px 10px #ddd;
+    align-items: center;
+}
+
+.menu h4 {
+    font-size: 20px;
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    font-style: italic;
+    margin-left: 1.5rem;
+}
+
+.menu h3 {
+    font-size: 20px;
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    margin-left: 1.4rem;
+}
+
+.menu .navigation_bar {
+    display: flex;
+    flex-direction: row;
+    width: 18.5rem;
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: 'Spectral', serif;
+    font-weight: 300;
+    margin-left: 1.5rem;
+    color: #888;
+}
+
+.menu .navigation_bar .homepage {
+    color: black;
+}
+
+.menu .info {
+    width: 5rem;
+    display: flex;
+    flex-direction: row;     
+    position: absolute;
+    right: 0;
+    justify-content: right;
+    margin-right: 1.3rem;
+    align-items: center;
+}
+
+.menu .info img {
+    width: 2rem;
+    height: 2rem;
+    background-size: contain;
+} 
+
+.menu .info i {
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;  
+} 
+
+/* Create Featured Article */
+
+.featured_article {
+    height: 40vw;
+    display: flex;
+    flex-direction: row;     
+    justify-content: top;
+    position: absolute;
+    top: 50px;
+    margin: 7vw 7vw;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.featured_article img {
+    width: 40vw;
+    height: 40vw;
+    background-size: cover;
+}
+
+.description {
+    width: calc(50%);
+    height: 40vw;
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    margin-left: 4vw;
+    word-wrap: break-word;
+    box-sizing: border-box;
+} 
+
+.description .text {
+    height: 21vw;;
+    display: flex;
+    flex-direction: column;     
+    justify-content: space-between;
+
+ } 
+
+.description .text h6 {
+    font-size: 1.5vw;
+} 
+
+.description .text h1 {
+    font-size: 4.5vw;
+} 
+
+.description .text p {
+    font-size: 1.5vw;
+    margin-top: 2vw;
+    color: #888;
+} 
+
+.description .user_information {
+    width: 100%;
+    height: 2rem;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vw;
+    align-items: center;
+} 
+
+.description .user_information img {
+    width: 4.5vw;
+    height: auto;
+    background-size: contain;
+    margin-right: 2vw;
+} 
+
+.description .user_information .user_infortext {
+    display: flex;
+    flex-direction: column;
+} 
+
+.description .user_information .user_infortext .ui_name {
+    font-size: 1.7vw;
+    margin-bottom: 0.4vw;
+    font-weight: 700;
+} 
+
+.description .user_information .user_infortext .ui_apl {
+    font-size: 1.5vw;
+    font-style: italic;
+    color: #888;
+} 
+
+/* Create blog */
+
+.blog {
+    height: 40vh;
+    width: 86vw;
+    display: flex;
+    flex-direction: row;     
+    justify-content: left;
+    position: absolute;
+    margin: 7vw 7vw;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    top: calc(10px + 53vw);
+}
+
+/* blog2 */
+
+.blog2 {
+    width: 40vw;
+    height: 44vh;
+    display: flex;
+    flex-direction: column;     
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-right: 6vw;
+}
+
+.blog2 img {
+    width: 40vw;
+    height: 30vh;
+    background-size: cover;
+}
+
+.description2 {
+    width: 40vw;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    margin-top: 1.2vh;
+    word-wrap: break-word;
+    box-sizing: border-box;
+} 
+
+.description2 .text2 {
+    height: 14.5vw;
+    display: flex;
+    flex-direction: column;     
+    justify-content: space-between;
+
+ } 
+
+.description2 .text2 h6 {
+    font-size: 1.2vw;
+    margin-top: 0.5vw;
+} 
+
+.description2 .text2 h1 {
+    font-size: 2.3vw;
+    margin-top: 1vw;
+} 
+
+.description2 .text2 p {
+    font-size: 1.1vw;
+    color: #888;
+} 
+
+.description2 .user_information2 {
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    align-items: center;
+} 
+
+.description2 .user_information2 img {
+    width: auto;
+    height: 3vh;
+    background-size: contain;
+    margin-right: 1.6vw;
+} 
+
+.description2 .user_information2 .user_infortext2 {
+    display: flex;
+    flex-direction: column;
+} 
+
+.description2 .user_information2 .user_infortext2 .ui_name {
+    font-size: 1.3vw;
+    margin-bottom: 0.4vw;
+    font-weight: 700;
+} 
+
+.description2 .user_information2 .user_infortext2 .ui_apl {
+    font-size: 1.1vw;
+    font-style: italic;
+    color: #888;
+} 
+
+/* blog3 */
+
+.blog3 {
+    width: 40vw;
+    height: 44vh;
+    display: flex;
+    flex-direction: column;     
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.blog3 img {
+    width: 40vw;
+    height: 30vh;
+    background-size: cover;
+}
+
+.description3 {
+    width: 40vw;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    margin-top: 1.2vh;
+    word-wrap: break-word;
+    box-sizing: border-box;
+} 
+
+.description3 .text3 {
+    height: 14.5vw;
+    display: flex;
+    flex-direction: column;     
+    justify-content: space-between;
+
+ } 
+
+.description3 .text3 h6 {
+    font-size: 1.2vw;
+    margin-top: 0.5vw;
+} 
+
+.description3 .text3 h1 {
+    font-size: 2.3vw;
+    margin-top: 1vw;
+} 
+
+.description3 .text3 p {
+    font-size: 1.1vw;
+    color: #888;
+} 
+
+.description3 .user_information3 {
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    align-items: center;
+} 
+
+.description3 .user_information3 img {
+    width: auto;
+    height: 3vh;
+    background-size: contain;
+    margin-right: 1.6vw;
+} 
+
+.description3 .user_information3 .user_infortext3 {
+    display: flex;
+    flex-direction: column;
+} 
+
+.description3 .user_information3 .user_infortext3 .ui_name {
+    font-size: 1.3vw;
+    margin-bottom: 0.4vw;
+    font-weight: 700;
+} 
+
+.description3 .user_information3 .user_infortext3 .ui_apl {
+    font-size: 1.1vw;
+    font-style: italic;
+    color: #888;
+} 
+
+/* Create resources */
+
+.resource {
+    height: 44vh;
+    width: 86vw;
+    display: flex;
+    flex-direction: row;     
+    justify-content: left;
+    position: absolute;
+    margin: 7vw 7vw;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    top: calc(10px + 102vw);
+}
+
+/* resource4 */
+
+.resource4 {
+    width: 26vw;
+    height: 44vh;
+    display: flex;
+    flex-direction: column;     
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-right: 4vw;
+}
+
+.resource4 img {
+    width: 26vw;
+    height: 15vw;
+    background-size: cover;
+}
+
+.description4 {
+    width: 26vw;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    margin-top: 1.2vh;
+    word-wrap: break-word;
+    box-sizing: border-box;
+} 
+
+.description4 .text4 {
+    height: 14.5vw;
+    display: flex;
+    flex-direction: column;     
+    justify-content: space-between;
+
+ } 
+
+.description4 .text4 h6 {
+    font-size: 1.2vw;
+} 
+
+.description4 .text4 h1 {
+    font-size: 2.3vw;
+    margin-top: 1vw;
+} 
+
+.description4 .text4 p {
+    font-size: 1.1vw;
+    color: #888;
+} 
+
+.description4 .user_information4 {
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    align-items: center;
+} 
+
+.description4 .user_information4 img {
+    width: auto;
+    height: 3vh;
+    background-size: contain;
+    margin-right: 1.6vw;
+} 
+
+.description4 .user_information4 .user_infortext4 {
+    display: flex;
+    flex-direction: column;
+} 
+
+.description4 .user_information4 .user_infortext4 .ui_name {
+    font-size: 1.3vw;
+    margin-bottom: 0.4vw;
+    font-weight: 700;
+} 
+
+.description4 .user_information4 .user_infortext4 .ui_apl {
+    font-size: 1.1vw;
+    font-style: italic;
+    color: #888;
+} 
+
+/* resource5 */
+
+.resource5 {
+    width: 26vw;
+    height: 44vh;
+    display: flex;
+    flex-direction: column;     
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-right: 4vw;
+}
+
+.resource5 img {
+    width: 26vw;
+    height: 15vw;
+    background-size: cover;
+}
+
+.description5 {
+    width: 26vw;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    margin-top: 1.2vh;
+    word-wrap: break-word;
+    box-sizing: border-box;
+} 
+
+.description5 .text5 {
+    height: 14.5vw;
+    display: flex;
+    flex-direction: column;     
+    justify-content: space-between;
+
+ } 
+
+.description5 .text5 h6 {
+    font-size: 1.2vw;
+} 
+
+.description5 .text5 h1 {
+    font-size: 2.3vw;
+    margin-top: 1vw;
+} 
+
+.description5 .text5 p {
+    font-size: 1.1vw;
+    color: #888;
+} 
+
+.description5 .user_information5 {
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    align-items: center;
+} 
+
+.description5 .user_information5 img {
+    width: auto;
+    height: 3vh;
+    background-size: contain;
+    margin-right: 1.6vw;
+} 
+
+.description5 .user_information5 .user_infortext5 {
+    display: flex;
+    flex-direction: column;
+} 
+
+.description5 .user_information5 .user_infortext5 .ui_name {
+    font-size: 1.3vw;
+    margin-bottom: 0.4vw;
+    font-weight: 700;
+} 
+
+.description5 .user_information5 .user_infortext5 .ui_apl {
+    font-size: 1.1vw;
+    font-style: italic;
+    color: #888;
+} 
+
+/* resource6 */
+
+.resource6 {
+    width: 26vw;
+    height: 44vh;
+    display: flex;
+    flex-direction: column;     
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-right: 3.5vw;
+}
+
+.resource6 img {
+    width: 26vw;
+    height: 15vw;
+    background-size: cover;
+}
+
+.description6 {
+    width: 26vw;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    margin-top: 1.2vh;
+    word-wrap: break-word;
+    box-sizing: border-box;
+} 
+
+.description6 .text6 {
+    height: 14.5vw;
+    display: flex;
+    flex-direction: column;     
+    justify-content: space-between;
+
+ } 
+
+.description6 .text6 h6 {
+    font-size: 1.2vw;
+} 
+
+.description6 .text6 h1 {
+    font-size: 2.3vw;
+    margin-top: 1vw;
+} 
+
+.description6 .text6 p {
+    font-size: 1.1vw;
+    color: #888;
+} 
+
+.description6 .user_information6 {
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    align-items: center;
+} 
+
+.description6 .user_information6 img {
+    width: auto;
+    height: 3vh;
+    background-size: contain;
+    margin-right: 1.6vw;
+} 
+
+.description6 .user_information6 .user_infortext6 {
+    display: flex;
+    flex-direction: column;
+} 
+
+.description6 .user_information6 .user_infortext6 .ui_name {
+    font-size: 1.3vw;
+    margin-bottom: 0.4vw;
+    font-weight: 700;
+} 
+
+.description6 .user_information6 .user_infortext6 .ui_apl {
+    font-size: 1.1vw;
+    font-style: italic;
+    color: #888;
+} 
+
+/* Create hyperlink */
+
+.hyperlink {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;     
+    justify-content: center;
+}
+
+.hyperlink a {
+    font-size: 2.2vw;
+    text-decoration:none;
+    color: black;
+    position: absolute;
+    border: 0.2vw black solid;
+    border-radius: 1.5vw;
+    box-sizing: border-box;
+    padding: 1vw 2.5vh;
+    box-shadow: 0.5px 0.5px 20px #ddd;
+    top: calc(20px + 150vw);
+}
+
+.hyperlink a:hover {
+    background-color: black;
+    color: white;
+}
+
